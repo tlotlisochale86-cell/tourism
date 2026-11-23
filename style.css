@@ -1,0 +1,432 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+  background-color: whitesmoke;
+    color: black;
+}
+
+
+.navbar {
+  background-color: skyblue;
+    padding: 15px;
+}
+
+.navbar-brand {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.nav-link {
+    color: white;
+    margin: 5px;
+}
+
+h1, h2 {
+  color: skyblue;
+}
+
+
+footer {
+  background-color: skyblue;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+
+
+.page-title {
+  background-color: skyblue;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+    margin-top: 50px;
+}
+
+.page-title h1 {
+    color: white;
+    font-size: 35px;
+}
+
+.page-title p {
+    color: white;
+}
+
+
+.gallery-item {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+figure {
+    background-color: white;
+    text-align: center;
+    margin-bottom: 25px;
+    padding: 10px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+}
+
+figcaption {
+  color: skyblue;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.gallery-item:hover {
+    opacity: 0.8;
+}
+
+.modal-content {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.modal-title {
+  color: skyblue;
+}
+
+#prevBtn {
+    background-color: grey;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+#nextBtn {
+  background-color: skyblue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+footer {
+  background-color: skyblue;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.page-title {
+  background-color: skyblue;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+    margin-top: 50px;
+}
+
+.page-title h1 {
+    color: white;
+    font-size: 35px;
+}
+
+.page-title p {
+    color: white;
+}
+
+
+.form-label {
+  color: skyblue;
+    font-weight: bold;
+}
+
+.form-control {
+    padding: 12px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+
+.btn-group button {
+  background-color: skyblue;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.btn-group button:hover {
+  background-color: deepskyblue;
+}
+
+
+.card {
+    background-color: white;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.card-title {
+  color: skyblue;
+    font-weight: bold;
+}
+
+.card-text {
+    color: black;
+}
+
+
+.card .btn {
+  background-color: skyblue;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+.card .btn:hover {
+  background-color: skyblue;
+}
+footer {
+  background-color: skyblue;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.table-responsive {
+  border: 1px solid color-mix(in srgb, skyblue 16%, transparent);
+  border-radius: 12px;
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 8px 24px color-mix(in srgb, black 8%, transparent);
+}
+.table-responsive table { margin-bottom: 0; }
+.table-responsive caption {
+  caption-side: top;
+  padding: 16px 20px;
+  color: skyblue;
+  font-size: 1.1rem;
+  font-weight: bold;
+  background: aliceblue;
+}
+.table-responsive thead th {
+  padding: 14px 18px;
+  background: skyblue;
+  color: white;
+  border: none;
+  white-space: nowrap;
+}
+.table-responsive tbody th,
+.table-responsive tbody td {
+  padding: 18px;
+  border-color: lightblue;
+  vertical-align: middle;
+}
+.table-responsive tbody th { color: skyblue; }
+.table-responsive tbody tr:hover { background: aliceblue; }
+.table-responsive .badge {
+  margin: 2px;
+  padding: 8px 10px;
+  border-radius: 20px;
+}
+main section.container > p { margin-top: 18px; }
+main section.container > p a {
+  color: skyblue;
+  font-weight: bold;
+}
+.navbar .nav-link.active { border-bottom: 2px solid white; }
+
+[data-bs-theme="dark"] body {
+  background: black;
+  color: aliceblue;
+}
+[data-bs-theme="dark"] .table-responsive,
+[data-bs-theme="dark"] .table-responsive caption { background: black; }
+[data-bs-theme="dark"] .table-responsive caption,
+[data-bs-theme="dark"] .table-responsive tbody th,
+[data-bs-theme="dark"] main section.container > p a { color: lightskyblue; }
+[data-bs-theme="dark"] .table {
+  --bs-table-bg: black;
+  --bs-table-striped-bg: darkslategray;
+  --bs-table-striped-color: aliceblue;
+  --bs-table-color: aliceblue;
+}
+[data-bs-theme="dark"] .table-responsive tbody td,
+[data-bs-theme="dark"] .table-responsive tbody th { border-color: slategray; }
+[data-bs-theme="dark"] .table-responsive tbody tr:hover { background: darkslateblue; }
+
+:root {
+  --green: skyblue;
+  --olive: skyblue;
+  --cream: beige;
+}
+html { scroll-behavior: smooth; }
+main { padding-bottom: 30px; }
+main:has(.hero) { padding-bottom: 0; }
+.hero {
+  min-height: calc(100vh - 87px);
+  min-height: calc(100svh - 87px);
+  align-items: flex-start !important;
+  margin-top: 87px;
+  padding: 32px 20px 30px;
+  color: white;
+  background-image: linear-gradient(color-mix(in srgb, black 48%, transparent), color-mix(in srgb, black 48%, transparent), color-mix(in srgb, black 48%, transparent)), url("images.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.hero h1 {
+  color: white;
+  font-size: clamp(2.5rem, 6vw, 4.5rem);
+  text-shadow: 0 2px 12px color-mix(in srgb, black 60%, transparent);
+}
+.hero .hero-welcome {
+  margin: 0 auto 0.5rem;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: clamp(1.7rem, 4vw, 3.25rem);
+  font-weight: 800;
+  line-height: 1.1;
+}
+.hero .hero-trip-link {
+  display: table;
+  margin: 0 auto 1.1rem;
+}
+.hero .lead {
+  max-width: 620px;
+  font-size: clamp(1.1rem, 2vw, 1.4rem);
+  text-shadow: 0 2px 8px color-mix(in srgb, black 80%, transparent);
+}
+.hero .facts {
+  max-width: 362px;
+  padding: 0.8rem;
+  font-size: 1rem;
+  line-height: 1.2;
+  color: white;
+  background: color-mix(in srgb, midnightblue 88%, transparent);
+  border: 1px solid color-mix(in srgb, white 45%, transparent);
+  border-radius: 14px;
+  box-shadow: 0 12px 32px color-mix(in srgb, black 25%, transparent);
+  backdrop-filter: blur(6px);
+}
+.hero .facts h2 {
+  color: white;
+  margin-bottom: 0.55rem;
+  font-size: 1.125rem;
+}
+.hero .facts dl {
+  display: grid;
+  grid-template-columns: 1fr 1.4fr;
+  gap: 0.35rem 0.6rem;
+}
+.hero .facts dt,
+.hero .facts dd {
+  margin: 0;
+}
+.hero .facts dt {
+  color: gold;
+}
+.hero .facts dd {
+  text-align: right;
+}
+.hero-links {
+  list-style: none;
+  margin: 0.7rem 0 0;
+  padding: 0.65rem 0 0;
+  border-top: 1px solid color-mix(in srgb, white 35%, transparent);
+  line-height: 1.2;
+}
+.hero-links li + li {
+  margin-top: 0.25rem;
+}
+.hero-links a {
+  color: gold;
+  font-weight: bold;
+}
+.hero-links a:hover {
+  color: white;
+}
+[data-bs-theme="dark"] .hero .facts,
+[data-bs-theme="dark"] .hero .facts h2,
+[data-bs-theme="dark"] .hero .facts dd {
+  color: white;
+}
+.btn-ochre {
+  background: orange;
+  color: black;
+  border: none;
+  font-weight: normal;
+}
+.btn-ochre:hover {
+  background: skyblue;
+  color: black;
+}
+.facts {
+  background: whitesmoke;
+  border: 1px solid lightgray;
+  padding: 15px;
+}
+.estimate {
+  background: whitesmoke;
+  color: black;
+  padding: 10px;
+}
+.card {
+  box-shadow: none;
+}
+.card:hover {
+  box-shadow: none;
+}
+[data-bs-theme="dark"] .facts,
+[data-bs-theme="dark"] .estimate,
+[data-bs-theme="dark"] figure,
+[data-bs-theme="dark"] .gallery-item,
+[data-bs-theme="dark"] .card,
+[data-bs-theme="dark"] .modal-content {
+  background: black;
+  color: aliceblue;
+}
+[data-bs-theme="dark"] .facts dt,
+[data-bs-theme="dark"] .estimate,
+[data-bs-theme="dark"] .card-title,
+[data-bs-theme="dark"] figcaption,
+[data-bs-theme="dark"] .table-responsive caption,
+[data-bs-theme="dark"] .table-responsive tbody th,
+[data-bs-theme="dark"] main section.container > p a {
+  color: steelblue;
+}
+[data-bs-theme="dark"] .hero .facts {
+  background: black;
+  color: white;
+}
+[data-bs-theme="dark"] figure figcaption,
+[data-bs-theme="dark"] .modal-title {
+  color: aliceblue;
+}
+[data-bs-theme="dark"] .card-text,
+[data-bs-theme="dark"] .modal-title {
+  color: aliceblue;
+}
